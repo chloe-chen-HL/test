@@ -1,0 +1,165 @@
+Start testing: Aug 12 08:08 UTC
+----------------------------------------------------------
+1/6 Testing: StateBaseTests.ReturnsStateType
+1/6 Test: StateBaseTests.ReturnsStateType
+Command: "/workspace/project/build/statebase_tests" "--gtest_filter=StateBaseTests.ReturnsStateType" "--gtest_also_run_disabled_tests"
+Directory: /workspace/project/build
+"StateBaseTests.ReturnsStateType" start time: Aug 12 08:08 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/project/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StateBaseTests.ReturnsStateType
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StateBaseTests
+[ RUN      ] StateBaseTests.ReturnsStateType
+[       OK ] StateBaseTests.ReturnsStateType (0 ms)
+[----------] 1 test from StateBaseTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StateBaseTests.ReturnsStateType" end time: Aug 12 08:08 UTC
+"StateBaseTests.ReturnsStateType" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/6 Testing: StateBaseTests.SetAndGetStateMachine
+2/6 Test: StateBaseTests.SetAndGetStateMachine
+Command: "/workspace/project/build/statebase_tests" "--gtest_filter=StateBaseTests.SetAndGetStateMachine" "--gtest_also_run_disabled_tests"
+Directory: /workspace/project/build
+"StateBaseTests.SetAndGetStateMachine" start time: Aug 12 08:08 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/project/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StateBaseTests.SetAndGetStateMachine
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StateBaseTests
+[ RUN      ] StateBaseTests.SetAndGetStateMachine
+[       OK ] StateBaseTests.SetAndGetStateMachine (0 ms)
+[----------] 1 test from StateBaseTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StateBaseTests.SetAndGetStateMachine" end time: Aug 12 08:08 UTC
+"StateBaseTests.SetAndGetStateMachine" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/6 Testing: StateBaseTests.LightControlCommandAcceptedAndSetsNeedleColor
+3/6 Test: StateBaseTests.LightControlCommandAcceptedAndSetsNeedleColor
+Command: "/workspace/project/build/statebase_tests" "--gtest_filter=StateBaseTests.LightControlCommandAcceptedAndSetsNeedleColor" "--gtest_also_run_disabled_tests"
+Directory: /workspace/project/build
+"StateBaseTests.LightControlCommandAcceptedAndSetsNeedleColor" start time: Aug 12 08:08 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/project/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StateBaseTests.LightControlCommandAcceptedAndSetsNeedleColor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StateBaseTests
+[ RUN      ] StateBaseTests.LightControlCommandAcceptedAndSetsNeedleColor
+[       OK ] StateBaseTests.LightControlCommandAcceptedAndSetsNeedleColor (0 ms)
+[----------] 1 test from StateBaseTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StateBaseTests.LightControlCommandAcceptedAndSetsNeedleColor" end time: Aug 12 08:08 UTC
+"StateBaseTests.LightControlCommandAcceptedAndSetsNeedleColor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/6 Testing: StateBaseTests.LightControlCommandAcceptedEvenWithoutNeedle
+4/6 Test: StateBaseTests.LightControlCommandAcceptedEvenWithoutNeedle
+Command: "/workspace/project/build/statebase_tests" "--gtest_filter=StateBaseTests.LightControlCommandAcceptedEvenWithoutNeedle" "--gtest_also_run_disabled_tests"
+Directory: /workspace/project/build
+"StateBaseTests.LightControlCommandAcceptedEvenWithoutNeedle" start time: Aug 12 08:08 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/project/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StateBaseTests.LightControlCommandAcceptedEvenWithoutNeedle
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StateBaseTests
+[ RUN      ] StateBaseTests.LightControlCommandAcceptedEvenWithoutNeedle
+[       OK ] StateBaseTests.LightControlCommandAcceptedEvenWithoutNeedle (0 ms)
+[----------] 1 test from StateBaseTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StateBaseTests.LightControlCommandAcceptedEvenWithoutNeedle" end time: Aug 12 08:08 UTC
+"StateBaseTests.LightControlCommandAcceptedEvenWithoutNeedle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/6 Testing: StateBaseTests.NonLightCommandFallsBackToQObjectEvent
+5/6 Test: StateBaseTests.NonLightCommandFallsBackToQObjectEvent
+Command: "/workspace/project/build/statebase_tests" "--gtest_filter=StateBaseTests.NonLightCommandFallsBackToQObjectEvent" "--gtest_also_run_disabled_tests"
+Directory: /workspace/project/build
+"StateBaseTests.NonLightCommandFallsBackToQObjectEvent" start time: Aug 12 08:08 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/project/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StateBaseTests.NonLightCommandFallsBackToQObjectEvent
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StateBaseTests
+[ RUN      ] StateBaseTests.NonLightCommandFallsBackToQObjectEvent
+[       OK ] StateBaseTests.NonLightCommandFallsBackToQObjectEvent (0 ms)
+[----------] 1 test from StateBaseTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StateBaseTests.NonLightCommandFallsBackToQObjectEvent" end time: Aug 12 08:08 UTC
+"StateBaseTests.NonLightCommandFallsBackToQObjectEvent" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/6 Testing: StateBaseTests.ChangeStatusIsThreadSafeAndSetsValue
+6/6 Test: StateBaseTests.ChangeStatusIsThreadSafeAndSetsValue
+Command: "/workspace/project/build/statebase_tests" "--gtest_filter=StateBaseTests.ChangeStatusIsThreadSafeAndSetsValue" "--gtest_also_run_disabled_tests"
+Directory: /workspace/project/build
+"StateBaseTests.ChangeStatusIsThreadSafeAndSetsValue" start time: Aug 12 08:08 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/project/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StateBaseTests.ChangeStatusIsThreadSafeAndSetsValue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StateBaseTests
+[ RUN      ] StateBaseTests.ChangeStatusIsThreadSafeAndSetsValue
+[       OK ] StateBaseTests.ChangeStatusIsThreadSafeAndSetsValue (0 ms)
+[----------] 1 test from StateBaseTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StateBaseTests.ChangeStatusIsThreadSafeAndSetsValue" end time: Aug 12 08:08 UTC
+"StateBaseTests.ChangeStatusIsThreadSafeAndSetsValue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 12 08:08 UTC

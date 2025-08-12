@@ -1,0 +1,5 @@
+if(EXISTS "/workspace/project/build/statebase_tests[1]_tests.cmake")
+  include("/workspace/project/build/statebase_tests[1]_tests.cmake")
+else()
+  add_test(statebase_tests_NOT_BUILT statebase_tests_NOT_BUILT)
+endif()

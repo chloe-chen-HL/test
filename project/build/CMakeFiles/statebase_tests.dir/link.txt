@@ -1,0 +1,1 @@
+/usr/bin/c++ -Xlinker --dependency-file=CMakeFiles/statebase_tests.dir/link.d CMakeFiles/statebase_tests.dir/tests/test_statebase.cpp.o -o statebase_tests  libcore.a lib/libgtest.a lib/libgtest_main.a lib/libgtest.a

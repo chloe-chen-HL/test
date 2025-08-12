@@ -1,0 +1,7 @@
+StateBaseTests.ReturnsStateType 1 0.0017184
+StateBaseTests.SetAndGetStateMachine 1 0.00172268
+StateBaseTests.LightControlCommandAcceptedAndSetsNeedleColor 1 0.00137327
+StateBaseTests.LightControlCommandAcceptedEvenWithoutNeedle 1 0.00149361
+StateBaseTests.NonLightCommandFallsBackToQObjectEvent 1 0.0014675
+StateBaseTests.ChangeStatusIsThreadSafeAndSetsValue 1 0.00157278
+---
