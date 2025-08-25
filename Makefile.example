@@ -1,0 +1,48 @@
+# Makefile for actual code example test
+CXX = g++
+CXXFLAGS = -std=c++17 -Wall -Wextra -g -O0
+GTEST_LIB = -lgtest -lgtest_main -lgmock -lpthread
+
+# 目标文件
+TARGET = example_actual_code_test
+TEST_SOURCE = example_actual_code_test.cpp
+
+# 默认目标
+all: $(TARGET)
+
+# 编译测试程序
+$(TARGET): $(TEST_SOURCE)
+	$(CXX) $(CXXFLAGS) -o $@ $< $(GTEST_LIB)
+
+# 运行测试
+test: $(TARGET)
+	./$(TARGET)
+
+# 运行测试并显示详细信息
+test-verbose: $(TARGET)
+	./$(TARGET) --gtest_verbose
+
+# 运行特定测试
+test-specific: $(TARGET)
+	./$(TARGET) --gtest_filter=YourClassTest.HandleActionMoveToReadyCommand
+
+# 运行测试并生成XML报告
+test-xml: $(TARGET)
+	./$(TARGET) --gtest_output=xml:example_test_results.xml
+
+# 清理
+clean:
+	rm -f $(TARGET) example_test_results.xml
+
+# 帮助信息
+help:
+	@echo "可用的目标:"
+	@echo "  all          - 编译测试程序"
+	@echo "  test         - 运行所有测试"
+	@echo "  test-verbose - 运行测试并显示详细信息"
+	@echo "  test-specific- 运行特定测试"
+	@echo "  test-xml     - 运行测试并生成XML报告"
+	@echo "  clean        - 清理编译文件"
+	@echo "  help         - 显示此帮助信息"
+
+.PHONY: all test test-verbose test-specific test-xml clean help
